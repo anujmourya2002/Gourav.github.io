@@ -1,0 +1,163 @@
+body{
+    
+    background-repeat: round;
+    background-size: auto;
+    
+}
+
+#header{
+    margin: 0%;
+    padding: 0%;
+    margin-top: -24px;
+    height : 46px;
+    font-family: "Ubuntu Mono", monospace;
+
+}
+.header1{
+    margin: 32px;
+    padding-top: 0;
+    font-size: 23px;
+    height: 16px;
+    color:red;
+    text-align: center;
+}
+.header2{
+    height: 16px;
+    font-size: 18px;
+    text-align: center;
+}
+#navbar{
+    margin-top: 42px;
+    border:2px solid black;
+    border-radius: 15px;
+    background-color:#a6b0f5;
+    height: 160px;
+    
+}
+li{
+    list-style-type: none;
+    text-decoration-style: none;
+    margin: 15px;
+    padding: 0;
+    display: inline-block;
+
+    
+}
+li a{
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+li a:hover{
+    color: red;
+   
+    padding: 15px;
+
+    
+}
+#navcontent{
+   text-align: center;
+}
+#photo1{
+    text-align: center;
+}
+.img1{
+    width: 100px;
+    height: 95px;
+    border:2px solid black;
+    border-radius:60px;
+}
+ul li:hover {background: grey;}
+ul li:hover ul{
+    display: block;
+}
+ul li ul{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+  display: none;
+  text-align: left;
+  padding-left: 0;
+  
+}
+ul li ul li { 
+    background: gray; 
+    display: block; 
+    margin: 0;
+    padding: 5px;
+    font-size: 18px;
+  }
+.order{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+   width: 100px;
+   height: 25px;
+    
+}
+.order:hover{
+    color:red;
+    border:2px solid black;
+    border-radius:15px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px red; 
+}
+#hover1:hover{
+    padding: 2px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+#hover1 #hover2:hover{
+   color:red;
+    
+}
+.photo2{
+    float: left;
+    border: 2px solid black;
+    width: 375px;
+    height: 400px;
+    margin: 20px;
+    border-radius:50px;
+    margin-left: 3%;
+
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 375px;
+    height: 100px;
+}
+
+.text1:hover{
+    color:white;
+    margin: -5px;
+   
+}
+.text1 h2:hover{
+    background-color:red;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius:10px;
+    padding: 5px;
+    
+   
+}
+.img2{
+   border: 1px solid black;
+   border-radius:300px;
+    width: 260px;
+    height: 262px;
+    margin-left: 52px;
+    margin-top: 30px;
+}
+#center{
+    text-align: center;
+    background-color:#a6b0f5;
+}
